@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(58, 102, 83);
+  }
+.container{
+    background-color: rgb(44, 44, 44);
+    height: 55vh;
+    width: 50pc;  
+    margin:12% ;  
+    margin-left:25% ;  
+    border-radius: .5rem;
+
+}
+#logo{
+    padding-top: 12px ;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+   
+}
+#inputs{
+    float: right;
+    margin: 10%;
+    margin-top: 0%;
+   
+ 
+}
+.appform{
+   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius:.3rem;
+  border-bottom: 3px solid red;
+  border: none;
+  background-color: rgb(44, 44, 44);
+  color: aliceblue;
+}
+#pak{
+    
+     font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#phy{
+    font-size: larger;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#maths{
+    font-size: larger;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#web{
+    font-size: larger;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#button{
+    background-color:  rgb(44, 44, 44);
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: cursive;
+}
+.t-button{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    margin-left:22%;
+}

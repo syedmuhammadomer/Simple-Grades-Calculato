@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <title>calculator</title>
+</head>
+<body>
+  
+    <div class="header">
+        <div class="container form">
+            <div>
+                <h1 id="logo">CALCUATOR</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="vr" style=" border-left: 6px solid green; float: left; height: 150px; margin-left: 15%; margin-top: 4%;">
+                    <h1 style="float: left; ; margin-left: 15%; color: rgb(255, 255, 255);">Student <br>grade<br>calculator</h1>
+                </div>
+            </div>
+                <div class="col-md-5"  id="inputs">
+                      <input type="text"  class="appform" placeholder="webprogramming " id="web"><br>
+                      <input type="text"  class="appform" placeholder="physics" id="phy"><br>
+                      <input type="text"  class="appform" placeholder="mathametics" id="maths"><br>
+                      <input type="text"  class="appform" placeholder="pakistanStudies" id="pak"><br>
+                </div>
+            
+            </div>
+            <div class=" t-button">
+                <input type="button"  class="appform" name="" value="showpercentage" id="button" onclick="calcy()">       
+            </div>
+            <div class="appformgroup showdata">
+                <p id="showData" style="color: rgb(255, 255, 255);  margin-top: 35% ;text-align: center; font-weight: 1000;"></p>
+            </div>     
+        </div>
+        
+    </div>
+   
+   <script src="script.js"></script>
+  
+</body>
+</html>
